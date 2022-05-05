@@ -1,4 +1,5 @@
-module.exports = function User(id, username){
+module.exports = function Todo(id, title, description){
     this.id = id
-    this.username = username
+    this.title = title
+    this.description = description
 }

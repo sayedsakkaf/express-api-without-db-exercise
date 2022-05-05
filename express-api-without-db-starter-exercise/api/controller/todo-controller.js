@@ -1,8 +1,8 @@
 const TodoNotFoundError = require('../errors/todo-not-found-error');
 const Todo = require('../model/todo')
 
-idCounter = 3;
-const todos = [{}, {}, {}]
+idCounter = 1;
+const todos = [{"id":1, "title":"Clean room", "description":"Remember to hoover and put clothes away"}]
 
 module.exports = {
 
