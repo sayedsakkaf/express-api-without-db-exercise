@@ -21,4 +21,4 @@ You must have the following:
 - A field on todos representing an array of tags as strings
 - The existing CRUD functionality from version 1 (update where necessary to handle todo categories)
 - Add two new methods to your controller for managing a todos tags: `addTag` and `removeTag`
-- A custom exception for adding and removing tags, this will return messages like "Tag already exists on todo with id 3" or "Tag does not exist on todo with id 3" for example
+- A custom exception for adding and removing tags, this will return messages like "Tag already exists on todo with id 3" or "Tag does not exist on todo with id 3" for example.
